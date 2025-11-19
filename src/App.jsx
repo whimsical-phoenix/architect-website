@@ -18,7 +18,9 @@
 import Navbar from "./assets/components/Navbar";
 import HeroSection from "./assets/components/HeroSection";
 import Projects from "./assets/components/Projects";
+import About from "./assets/components/About";
 import './index.css';
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <Projects />
+      {/* <About /> */}
     </div>
   );
 }
